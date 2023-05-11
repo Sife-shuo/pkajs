@@ -1,0 +1,12 @@
+{
+  "name": "pka",
+  "version": "0.0.0",
+  "description": "",
+  "main": "./lib/pka.js",
+  "scripts": {
+    "test": ""
+  },
+  "keywords": [],
+  "author": "Sifer",
+  "license": "MIT"
+}
