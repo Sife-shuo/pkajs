@@ -1,12 +1,12 @@
 {
   "name": "pka",
-  "version": "0.0.0",
-  "description": "",
+  "version": "0.0.1",
+  "description": "tiny and fast node web framework",
   "main": "./lib/pka.js",
   "scripts": {
-    "test": ""
+    "test": "node test"
   },
-  "keywords": [],
+  "keywords": ["web","app","http","application","framework"],
   "author": "Sifer",
   "license": "MIT"
 }
