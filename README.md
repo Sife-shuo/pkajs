@@ -2,7 +2,7 @@
 
 Languages:
 - [English](./)
-- [简体中文](./README_zh.md)
+- [简体中文](https://github.com/Sife-shuo/pkajs/blob/main/README_zh.md)
 
 
 A modern and minimal web framework that can run quickly (less than 3.5kb).
