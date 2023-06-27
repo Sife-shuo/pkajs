@@ -43,3 +43,14 @@ f.get("/i",(req,res)=>{console.log("Router：",req.url);res.send("This is Router
 module.exports=f;
 ```
 在上述事例中运行test.js将会启动web服务，向127.0.0.1:3000/r/i发送GET就会收到数据
+
+支持模板语法
+```javascript
+const pka = require('pka')
+var f=new pka();
+f.post("/api/*",(req,res)=>{
+    console.log(req.body);
+    res.data={word:"World"}
+    res.send("Hello {{word}}!")
+}).listen(3000,()=>{console.log("Hello World!")})
+```

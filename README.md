@@ -48,3 +48,14 @@ f.get("/i",(req,res)=>{console.log("Router：",req.url);res.send("This is Router
 module.exports=f;
 ```
 In the above example, running test.js will start the web service, and sending GET to 127.0.0.1:3000/r/i will receive the data.
+
+Support template syntax.
+```javascript
+const pka = require('pka')
+var f=new pka();
+f.post("/api/*",(req,res)=>{
+    console.log(req.body);
+    res.data={word:"World"}
+    res.send("Hello {{word}}!")
+}).listen(3000,()=>{console.log("Hello World!")})
+```
