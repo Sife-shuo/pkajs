@@ -1,6 +1,6 @@
 {
   "name": "pka",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "description": "tiny and fast node web framework",
   "main": "./lib/pka.js",
   "scripts": {
